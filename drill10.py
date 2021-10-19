@@ -103,5 +103,5 @@ while running:
     update_canvas()
 
     delay(0.05)
-# finalization code
+# 끝
 close_canvas()
