@@ -2,7 +2,7 @@ from pico2d import *
 import random
 
 
-
+# 쪼매난공하고 큰공 클라스 객체 정의
 class smallBall:
 
     def __init__(self):
@@ -35,7 +35,7 @@ class Grass:
         self.image.draw(400,30)
 
 
-
+#남정네
 class Boy:
     def __init__(self):
         self.x, self.y = random.randint(100, 700), 90
@@ -77,7 +77,7 @@ running = True
 
 
 
-
+#작동작동
 
 while running:
     handle_events()
